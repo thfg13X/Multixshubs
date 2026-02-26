@@ -32,6 +32,12 @@ elseif placeId == 537413528 then
     script_key = "trial"
     loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/26213e0d912480a1698717ebf745e171aadd7afb55aed568e06acc200a08e1ae.lua"))()
 
+-- m2
+elseif placeId == 142823291 then
+    
+    script_key = "trial"
+    loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/aaee564b09a262c8ec8509717bb353909e396db0d47a73bcc2965f699bff99fa.lua"))()
+
 else
     warn("Unsupported game. PlaceId:", placeId)
 end
