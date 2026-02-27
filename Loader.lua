@@ -18,7 +18,7 @@ elseif placeId == 10449761463
     script_key = "trial"
     loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/2872ef09b36cafac79a1420bacc1b75587ed50b426e3b135b3710a872bdd83d2.lua"))()
 
--- blx
+-- blox fruits 
 elseif placeId == 2753915549
     or placeId == 4442272183
     or placeId == 7449423635 then
@@ -43,6 +43,12 @@ elseif placeId == 9872472334 then
     
     script_key = "trial"
     loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/ee04792e89107366681a6dd2741a130e00d86e86b918669a40ed417a857dccb2.lua"))()
+
+-- Qs
+elseif placeId == 80200164706096 then
+    
+    script_key = "trial"
+    loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/b8f94a578086702e7a0de1a6a6acf300dabd7e76cf58c76cd53b99ee80bbb0e7.lua"))()
 
 else
     warn("Unsupported game. PlaceId:", placeId)
